@@ -1,0 +1,20 @@
+.produto{
+    background: rgb(42, 233, 247);
+    margin: 10px;
+}
+
+.span{
+    color: red;
+}
+
+#topo{
+    background: rgb(118, 118, 255);
+}
+
+#conteudo{
+    background-color: blueviolet;
+}
+
+#rodape{
+    background: rgb(42, 168, 42);
+}

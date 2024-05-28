@@ -1,0 +1,46 @@
+body{
+    background-color: #d0d0d0;
+    background-image: url("imgs/steve.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Fixa a imagem no fundo da página*/
+    background-position: center right;
+}   
+
+h1{
+    background-image: url(imgs/mar.jpg);
+}
+
+div{
+    font-size: 20px;
+}
+
+.formatacao{
+    color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+    /*em -> tamanho relativo ao elemento pai*/
+    font-size: 2em;
+}
+
+.texto2{
+    font-size: 1.0em;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.formatacao2{
+    text-decoration: underline;
+}
+
+.texto3{
+    font: bold 40px sans-serif;
+}

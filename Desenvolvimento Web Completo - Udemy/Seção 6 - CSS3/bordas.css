@@ -1,0 +1,6 @@
+#conteudo{
+    /*border: 10px groove red;*/
+    border-color: red green blue yellow;
+    border-width: 15px 10px 8px 3px;
+    border-style: solid double;
+}

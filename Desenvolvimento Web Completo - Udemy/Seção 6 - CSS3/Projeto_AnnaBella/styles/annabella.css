@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imgs/fundo.png");
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    /*flex-direction: column;*/
+}
+
+img{
+    width: 100%; /* Define a largura da imagem para 100% da div pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.bar_nav{
+    background-color: rgb(100, 5, 76);
+    color: rgb(252, 202, 225);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo_texto{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3%;
+    max-width: 100%; /* Define uma largura máxima para a div, de acordo com a div 'main'*/
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Quebra palavras longas */
+    text-align: justify;
+}
+
+.img_campanhas{
+    width: 70%; /* Define a largura da imagem para 70% da div pai */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 5px solid rgb(100, 5, 76);
+}
+
+.rodape{
+    background-color: rgb(100, 5, 76);
+    color: rgb(252, 202, 225);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    width: 60%; /* Define uma largura máxima para a div principal */
+    margin: auto; /* Centraliza a div */
+}
