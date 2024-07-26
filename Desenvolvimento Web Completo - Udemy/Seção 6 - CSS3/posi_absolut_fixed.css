@@ -1,0 +1,40 @@
+body{
+    background: #007fc7;
+}
+
+h1{
+}
+
+p{
+    width: 300px;
+}
+
+.fixed{
+    border: 2px solid red;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.absolut{
+    border: 2px solid red;
+    position: absolute; /*Calculada em relação ao container em que está o conteúdo*/
+    top: 0px;
+    right: 20px;
+}
+
+.relative{
+    border: 2px solid red;
+    position: relative;
+    top: 20px;
+    left: -80px;
+
+}
+
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: auto auto;/*Uma forma de centralizar uma div*/
+    padding: 20px;
+    position: relative;
+}

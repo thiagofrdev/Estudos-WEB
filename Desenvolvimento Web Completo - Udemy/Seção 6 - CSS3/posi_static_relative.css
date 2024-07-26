@@ -1,0 +1,25 @@
+body{
+    background: #007fc7;
+}
+
+h1{
+}
+
+p{
+    width: 300px;
+}
+
+.relative{
+    border: 2px solid red;
+    position: relative;
+    top: 20px;
+    left: -80px;
+
+}
+
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: auto auto;/*Uma forma de centralizar uma div*/
+    padding: 20px;
+}
