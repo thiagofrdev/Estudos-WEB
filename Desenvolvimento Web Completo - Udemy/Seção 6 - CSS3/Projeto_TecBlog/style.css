@@ -1,0 +1,45 @@
+body{
+    background-color: #fff3bf;
+    color: #464646;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: #f7b600;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover, a:active{
+    background-color: white;
+    color: #f7b600;
+    border-radius: 30px;
+}
+
+.margin-padding-0{
+    margin: 0;
+    padding: 0;
+}
+
+#text-h1-blog{
+    color: white;
+}
+
+#area-logo{
+    padding: 10px;
+}
